@@ -1,0 +1,6 @@
+<import 
+src="../../../templates/message/message.wxml" />
+
+<template is="message" wx:for="{{messages}}" data = "{{...item}}">
+</template>
+<include src="banner.wxml" />

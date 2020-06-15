@@ -1,0 +1,34 @@
+.listview{
+  width: 100%;
+  height: 1000rpx;
+  background: #ccc;
+}
+
+.listview .itemview{
+  width: 100%;
+  height: 200rpx;
+  background: pink;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.itemview .movablearea{
+  height: 100%;
+  background: burlywood;
+}
+
+.movablearea .movableview{
+  height: 100%;
+  background: skyblue;
+}
+
+.itemview .deleteview{
+  width: 200rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  display: inline-block;
+
+}

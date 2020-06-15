@@ -1,0 +1,4 @@
+
+<movable-area class="area">
+  <movable-view class="view" direction="all" inertia out-of-bounds>移动</movable-view>
+</movable-area>

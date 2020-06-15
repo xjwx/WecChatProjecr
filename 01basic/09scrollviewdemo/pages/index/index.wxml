@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<scroll-view class="scroll-view" scroll-x="{{true}}">
+  <view class="scroll-item bg_red" ></view>
+  <view class="scroll-item bg_yellow" ></view>
+  <view class="scroll-item bg_blue" ></view>
+  <view class="scroll-item bg_pink" ></view>
+  <view class="scroll-item bg_gray" ></view>
+</scroll-view>
+
+
+<scroll-view class='scroll-view-y' scroll-y="{{true}}" 
+ scroll-into-view="blue" bindscrolltoupper="toUpperEvent">
+  <view class="scroll-item-y bg_red" ></view>
+  <view id="yellow" class="scroll-item-y bg_yellow" ></view>
+  <view id="blue" class="scroll-item-y bg_blue" ></view>
+  <view class="scroll-item-y bg_pink"></view>
+</scroll-view>

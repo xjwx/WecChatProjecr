@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/event/event",
+    "pages/tpl/qq/qq",
+    "pages/tpl/weixin/weixin",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "夏日",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectColor": "#1AAD16",
+    "list": [
+      {
+        "pagePath": "pages/tpl/qq/qq",
+        "text": "QQ",
+        "iconPath": "images/tabbar/tabbar1.png",
+        "selectedIconPath": "images/tabbar/tabbar1Select.png"
+      },
+      {
+        "pagePath": "pages/tpl/weixin/weixin",
+        "text": "微信",
+        "iconPath": "images/tabbar/tabbar2.png",
+        "selectedIconPath": "images/tabbar/tabbar2Select.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "debug": true
+}

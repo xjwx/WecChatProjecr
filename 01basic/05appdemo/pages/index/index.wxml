@@ -1,0 +1,4 @@
+<wxs src="index.wxs" />
+<view>{{username}}</view>
+<view>{{person.username}}</view>
+<button bindtap="gotoNextPage">按钮</button>

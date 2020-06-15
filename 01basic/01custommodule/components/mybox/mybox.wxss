@@ -1,0 +1,12 @@
+/* components/mybox/mybox.wxss */
+.outter{
+  width: 200px;
+  height: 200px;
+  background:burlywood ;
+}
+
+.inner{
+  width: 100px;
+  height: 100px;
+  background: gray;
+}

@@ -1,0 +1,19 @@
+.outter{
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.outter-hover{
+  background: blue;
+}
+
+.inner{
+   width: 100px;
+   height: 100px;
+   background: gray;
+}
+
+.inner-hover{
+  background: white;
+}

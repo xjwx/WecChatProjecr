@@ -1,0 +1,14 @@
+<!--pages/css/css.wxml-->
+<view class ='news-group'>
+  <view class='info-group'> 
+    <view class='title'>今天是六一儿童节呀</view>
+    <view class='more-group'>
+      <text class='author'>xjw</text>
+      <text class='time'>2020-06-01</text>
+    </view>
+  </view>
+  <view class='thumbnail-group'>
+    <image class='thumbnail' src="/images/E9710355-2FB4-4FFE-80B2-3393B8A658D9.jpeg"></image>
+
+  </view>
+</view>

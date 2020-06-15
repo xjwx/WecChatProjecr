@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view>{{username}}</view>
+<view wx:if ="{{person.age > 18}}">可以进入网吧</view>
+<view wx:else>不可以进入网吧</view>
+<view>{{books[0]}}</view>
+
+<block wx:if="{{weather == '晴天'}}">
+  <view>因为是晴天，难得的好天气</view>
+  <view>我会选择长途旅行</view>
+</block>
+<block wx:elif="{{weather == '阴天'}}">
+  <view>因为是阴天，随时可能下雨</view>
+  <view>我会选择逛街</view>
+</block>
+<block wx:else>
+  <view>因为csac </view>
+  <view>我会选择sada</view>
+</block>

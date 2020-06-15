@@ -1,0 +1,48 @@
+/* pages/hongbao/hongbao.wxss */
+ .scroll-view{
+   width: 100%;
+   height: 200rpx;
+   background: gray;
+ }
+
+ .circle-outter{
+   width: 100%;
+   height: 300rpx;
+   background: #e4e4e4;
+   position: relative;
+ }
+
+ .circle-outter .circle-innner{
+  width: 100%;
+  height: 200rpx;
+  position: relative;
+  background: blue;
+ }
+
+ .circle-innner .circle{
+   background: #dd4b39;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 0;
+ }
+
+ .user-group{
+   position: absolute;
+   width: 200rpx;
+   font-size: 28rpx;
+   left: 50%;
+   right:  50%;
+   margin-left: -100rpx;
+   bottom:20rpx;
+   text-align: center;
+  }
+
+ .user-group .avatar{
+   width: 100rpx;
+   height:100rpx;
+   border: 1px solid #e8be34;
+ }
+
+ .placeholder{
+   height: 1000px;
+ }
